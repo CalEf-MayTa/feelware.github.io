@@ -101,6 +101,10 @@ h6 {
      font-size: 13px
 }
 
+lowerCase {
+     text-transform: lowercase;
+}
+
 *,
 *::after,
 *::before {
@@ -296,7 +300,8 @@ button {
 }
 
 .logo {
-     text-align: center;
+     text-align: left;
+     width: 100px;
 }
 
 
@@ -304,12 +309,12 @@ button {
 
 .banner {
      position: relative;
-     background: url(../images/banner1.jpg);
+     background: url(../images/banner.png);
      background-size: 100% 100%;
      background-position: center;
      background-repeat: no-repeat;
      min-height: 804px;
-     padding-top: 17%;
+     padding-top: 50%;
 }
 
 .text-bg {
@@ -325,7 +330,7 @@ button {
 }
 
 .text-bg h1 {
-     color: #000;
+     color: #000000;
      font-size: 85px;
      line-height: 96px;
      padding-bottom: 0px;
@@ -335,8 +340,8 @@ button {
 .text-bg span {
      line-height: 25px;
      padding-bottom: 40px;
-     color: #fff;
-     font-size: 17px;
+     color: #030a1d;
+     font-size: 30px;
      font-weight: bold;
      display: block;
 }
@@ -349,7 +354,7 @@ button {
      color: #000;
      text-transform: uppercase;
      font-weight: bold;
-     border-radius: 50px;
+     border-radius: 55px;
 }
 
 .text-bg .read_more:hover {
@@ -561,7 +566,7 @@ button {
 
 .gallery .gallery_img {
      overflow: hidden;
-     margin-bottom: 30px;
+     margin-bottom: 150px;
 }
 
 .gallery .gallery_img figure {
@@ -570,26 +575,26 @@ button {
 
 .gallery .gallery_img figure img {
      width: 100%;
-     transition: all .5s;
+     transition: all .2s;
 }
 
 .gallery .gallery_img figure img:hover {
-     transform: scale(1.2);
+     transform: scale(1.8);
      cursor: pointer;
 }
 
 .gallery_text {
      text-align: center;
-     background-color: #2a2b2a;
-     height: 369px;
+     background-color: #094409;
+     height: 30px;
      display: flex;
      align-items: center;
      justify-content: center;
 }
 
 .galleryh3 h3 {
-     font-size: 24px;
-     line-height: 30px;
+     font-size: 33px;
+     line-height: 35px;
      color: #fff;
      font-weight: bold;
 }
@@ -597,7 +602,7 @@ button {
 .galleryh3 p {
      font-size: 17px;
      line-height: 31px;
-     color: #fff;
+     color: #000000;
 }
 
 
